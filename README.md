@@ -1,20 +1,20 @@
 # Project: Power Electronics for Green Hydrogen Generation
 
 Overview
-The LTSpice produces us with the input voltage for out simulation.
-The MATLAB script reads electrical simulation data from LTSpice output files and processes it for further analysis. 
+  - The LTSpice produces us with the input voltage for out simulation.
+  - The MATLAB script reads electrical simulation data from LTSpice output files and processes it for further analysis. 
 
 Scripts
-  Reads data from a specified .txt file.
-  Extracts time, voltage, and current values.
-  Plots the voltage data for verification.
-  Converts the voltage and current data into Simulink time-series format.
-  Saves the processed data as a .mat file for use in Simulink.
+  - Reads data from a specified .txt file.
+  - Extracts time, voltage, and current values.
+  - Plots the voltage data for verification.
+  - Converts the voltage and current data into Simulink time-series format.
+  - Saves the processed data as a .mat file for use in Simulink.
 
 Files
-  ProjectB.m (MATLAB script).
-  Push-Pull Converter.asc (multiple LTSpice files for each configuration).
-  PUSH-PULL 1/2 (PDF files obtained by our supervisor, but don't know the URL for them).
+  - ProjectB.m (MATLAB script).
+  - Push-Pull Converter.asc (multiple LTSpice files for each configuration).
+  - PUSH-PULL 1/2 (PDF files obtained by our supervisor, but don't know the URL for them).
   
 Usage
   1. Open and run the LTSpice file (use the wanted configuration).
@@ -30,6 +30,6 @@ Usage
      Look at the scopes to verify that the input voltage for the electrolyzer looks valid and see the output hydrogen production.
 
 Dependencies
-  LTSpice
-  MATLAB
-  Simulink
+  - LTSpice
+  - MATLAB
+  - Simulink
